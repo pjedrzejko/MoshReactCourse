@@ -3,7 +3,10 @@
 import ListGroup from "./components/ListGroup";
 
 function App() {
-    return <div><ListGroup /></div>
+    let items = ["New York", "Jane N Finch", "Regent Park", "Southside Jane"]
+    return <div>
+        <ListGroup items={items} heading="Cities"/>
+    </div>
 }
 
 
